@@ -1,0 +1,110 @@
+﻿/* The Modal (background) */
+.modall {
+    position: fixed; /* Stay in place */
+    z-index: 1050; /* Sit on top */
+    padding-top: 65px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modall-content {
+    background-color: #27293d;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 0;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 1px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+option {
+    background-color: #27293d;
+}
+
+.yellowStatus {
+    padding: 5px 10px;
+    border: #d9cf16 solid 1px;
+    background-color: #f7f7da;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    color: #d9cf16;
+}
+
+.blueStatus {
+    padding: 5px 10px;
+    border: #336172 solid 1px;
+    background-color: #5593aa;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    color: #336172;
+}
+
+
+.greenStatus {
+    padding: 5px 10px;
+    border: #2b4d2d solid 1px;
+    background-color: #6b9680;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    color: #2b4d2d;
+}
+
+.grayStatus {
+    padding: 5px 10px;
+    border: #5f5f5f solid 1px;
+    background-color: #878787;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    color: #5f5f5f;
+}
+
+.orangeStatus {
+    padding: 5px 10px;
+    border: #7c5420 solid 1px;
+    background-color: #d59747d6;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    color: #7c5420;
+}
+
+.redStatus {
+    padding: 5px 10px;
+    border: #653026 solid 1px;
+    background-color: #f2a39394;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    color: #653026;
+}
